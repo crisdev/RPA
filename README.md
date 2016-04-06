@@ -228,7 +228,7 @@ Profesor a cargo: Luis Reynoso.
 
 * [Ejercicio 3](/src/trabajoPracticoN6Adicionales/Ejercicio3.java)
 > Leer una secuencia de palabras hasta que se ingrese el '.' y armar una oración conteniendo todas las palabras separadas
-> por el espacio en pero orden inverso. MOstrar la oración resultante.
+> por el espacio en pero orden inverso. Mostrar la oración resultante.
 
 ### Trabajo Final: Promoción
 
@@ -236,44 +236,42 @@ Profesor a cargo: Luis Reynoso.
 > El trabajo práctico consiste en especificar el pseudocódigo y el JAVA de un
 > algoritmo en el cual el usuario tendrá disponible un menú que mostrará
 > opciones para realizar distintas operaciones.
->
-> Se debe modularizar convenientemente. Uno de los integrantes entregará el seudocódigo y otro entregará el JAVA.
-> Ambos (seudocódigo y JAVA) deben ser consistentes entre ellos.
->
-> Los strings a considerar por los siguientes módulos, representarán códigos de
-> vuelo, con el formato LL-NNNN, y donde LL representan el prefijo del vuelo
-> que identifica a una línea aérea, y NNNN representa el número de vuelo. Por
-> ejemplo AR-1251 representa el vuelo 1251 de Aerolíneas Argentas. Otros códigos
-> son: LF para Lufthansa, AF para Air France, AA para American Airlines, DT para
-> Delta, QT para Qatar, etc.
->
-> Se deberá desarrollar un módulo para cada uno de los siguientes casos:
->
+
+Se debe modularizar convenientemente. Uno de los integrantes entregará el seudocódigo y otro entregará el JAVA.
+Ambos (seudocódigo y JAVA) deben ser consistentes entre ellos.
+
+Los strings a considerar por los siguientes módulos, representarán códigos de vuelo, con el formato LL-NNNN, 
+y donde LL representan el prefijo del vuelo que identifica a una línea aérea, y NNNN representa el número de vuelo.
+Por ejemplo AR-1251 representa el vuelo 1251 de Aerolíneas Argentinas.
+Otros códigos son: LF para Lufthansa, AF para Air France, AA para American Airlines, DT para Delta, QT para Qatar, etc.
+
+Se deberá desarrollar un módulo para cada uno de los siguientes casos:
+
 > 1. [Módulo 1](/src/trabajoPromocion/CodigosVuelo.java#L30): Verifica si un String recibido como parámetro representa un código de vuelo válido. Se considera válido
-> si respeta la estructura de códigos mencionado anteriormente. Este módulo retorna *true* si es válido, *false* en caso contrario.
+>    si respeta la estructura de códigos mencionado anteriormente. Este módulo retorna *true* si es válido, *false* en caso contrario.
 > 2. [Módulo 2](/src/trabajoPromocion/CodigosVuelo.java#L51): Dado un código de vuelo, determinar porqué un código de vuelo no es válido, el módulo deberá retornar carteles
-> indicativos como 'el prefijo no es válido', 'el número contiene letras', etc.
+>    indicativos como 'el prefijo no es válido', 'el número contiene letras', etc.
 > 3. [Módulo 3](/src/trabajoPromocion/CodigosVuelo.java#L90): Dados dos Strings (representando códigos de vuelo) recibidos como parámetros verificar si el primer código tiene
-> un número mayor que el segundo código.
+>    un número mayor que el segundo código.
 > 4. [Módulo 4](/src/trabajoPromocion/CodigosVuelo.java#L115): Dados dos Strings recibidos como parámetros verifica si el primer código es igual que el segundo código.
 > 5. [Módulo 5](/src/trabajoPromocion/CodigosVuelo.java#L136): Solicita al usuario una secuencia de códigos de vuelo, consultando al usuario: ¿desea continuar (si/no)?
 > Finalmente muestra el código de vuelo con el número más grande.
 > 6. [Módulo 6](/src/trabajoPromocion/CodigosVuelo.java#L164): Solicita al usuario un código de vuelo determinado, digamos A, luego solicita una secuencia de códigos de vuelo
-> consultando al usuario ¿desea continuar (si/no)? Finalmente muestra por pantalla si el código de vuelo A solicitado
-> inicialmente está duplicado en la secuencia ingresada y cuántas ocurrencias se encontraron del mismo.
+>    consultando al usuario ¿desea continuar (si/no)? Finalmente muestra por pantalla si el código de vuelo A solicitado
+>    inicialmente está duplicado en la secuencia ingresada y cuántas ocurrencias se encontraron del mismo.
 > 7. [Módulo 7](/src/trabajoPromocion/CodigosVuelo.java#L205): Dado un String recibido como parámetro, representando un código, permite obtener un nuevo código de vuelo,
-> con el número incrementado en una unidad más y con igual prefijo.
+>     con el número incrementado en una unidad más y con igual prefijo.
 > 8. [Módulo 8](/src/trabajoPromocion/CodigosVuelo.java#L229): Idem módulo 5, pero la secuencia de códigos de vuelo es recibido en un String que contiene un conjunto de códigos
-> de vuelo. Por ejemplo 'AR-1521AF-1234AA-78123' el cual contiene tres códigos de vuelo.
+>     de vuelo. Por ejemplo 'AR-1521AF-1234AA-78123' el cual contiene tres códigos de vuelo.
 > 9. [Módulo 9](/src/trabajoPromocion/CodigosVuelo.java#L262): Idem módulo 6, pero la secuencia de códigos de vuelo es recibido en un String que contiene un conjunto de códigos
 > de vuelo. Por ejemplo 'AR-1521AF-1234AA-78123' el cual contiene tres códigos de vuelo.
 > 10. [Módulo 10](/src/trabajoPromocion/CodigosVuelo.java#293): Muestra un menú por pantalla. Este módulo solicita al usuario una opción del menú (opción 1 al 10 del menú)
-> y el módulo retorna la opción elegida por el usuario.
+>     y el módulo retorna la opción elegida por el usuario.
 > 11. [Algoritmo Principal](/src/trabajoPromocion/CodigosVuelo.java#L325): El algoritmo principal permitirá que el usuario pueda ver en forma reiterada el menú del último inciso
-> anterior y dependiendo de la opción seleccionada por el usuario invocará al módulo correspondiente, o finalizará la iteración.
->
-> Es probable que para resolver algunos de los ejercicios requiera utilizar el método **parseInt** de la clase Integer.
-> Este método permite convertir una cadena de caracteres que contiene un número, en el número entero equivalene:
+>    anterior y dependiendo de la opción seleccionada por el usuario invocará al módulo correspondiente, o finalizará la iteración.
+
+Es probable que para resolver algunos de los ejercicios requiera utilizar el método **parseInt** de la clase Integer.
+Este método permite convertir una cadena de caracteres que contiene un número, en el número entero equivalene:
 
 ```java
 String cadenaNumero = "203";
