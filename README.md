@@ -265,7 +265,7 @@ Se deberá desarrollar un módulo para cada uno de los siguientes casos:
 >     de vuelo. Por ejemplo 'AR-1521AF-1234AA-78123' el cual contiene tres códigos de vuelo.
 > 9. [Módulo 9](/src/trabajoPromocion/CodigosVuelo.java#L262): Idem módulo 6, pero la secuencia de códigos de vuelo es recibido en un String que contiene un conjunto de códigos
 > de vuelo. Por ejemplo 'AR-1521AF-1234AA-78123' el cual contiene tres códigos de vuelo.
-> 10. [Módulo 10](/src/trabajoPromocion/CodigosVuelo.java#293): Muestra un menú por pantalla. Este módulo solicita al usuario una opción del menú (opción 1 al 10 del menú)
+> 10. [Módulo 10](/src/trabajoPromocion/CodigosVuelo.java#L293): Muestra un menú por pantalla. Este módulo solicita al usuario una opción del menú (opción 1 al 10 del menú)
 >     y el módulo retorna la opción elegida por el usuario.
 > 11. [Algoritmo Principal](/src/trabajoPromocion/CodigosVuelo.java#L325): El algoritmo principal permitirá que el usuario pueda ver en forma reiterada el menú del último inciso
 >    anterior y dependiendo de la opción seleccionada por el usuario invocará al módulo correspondiente, o finalizará la iteración.
