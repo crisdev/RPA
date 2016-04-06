@@ -233,9 +233,9 @@ Profesor a cargo: Luis Reynoso.
 ### Trabajo Final: Promoción
 
 * [CodigosVuelo](/src/trabajoPromocion/CodigosVuelo.java)
+
 > El trabajo práctico consiste en especificar el pseudocódigo y el JAVA de un
-> algoritmo en el cual el usuario tendrá disponible un menú que mostrará
-> opciones para realizar distintas operaciones.
+> algoritmo en el cual el usuario tendrá disponible un menú que mostrará opciones para realizar distintas operaciones.
 
 Se debe modularizar convenientemente. Uno de los integrantes entregará el seudocódigo y otro entregará el JAVA.
 Ambos (seudocódigo y JAVA) deben ser consistentes entre ellos.
@@ -279,9 +279,11 @@ int numero = Integer.parseInt(cadenaNuero);
 ```
 
 * [Extras](/src/trabajoPromocion/Extras.java)
+
 > Biblioteca de módulos adicionales para el trabajo práctico de promoción.
 
 ### Strings
 
 * [Ejercicios](/src/texto/Ejercicio.java)
+
 > Ejercicios utilizando la clase String.
