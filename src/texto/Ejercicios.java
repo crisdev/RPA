@@ -27,7 +27,7 @@ public class Ejercicios {
         String s2 = saludo.toLowerCase();  // En pseudocódigo: aMinuscula(saludo)
         String s3 = saludo.toUpperCase();  // En pseudocódigo: aMayuscula(saludo)
         
-        String s4 = "   Hola mundo  "; // En pseudocódigo: removerEspacios(s4)
+        String s4 = "   Hola mundo  ";  // En pseudocódigo: removerEspacios(s4)
         System.out.println(s4.trim());
     }
 }

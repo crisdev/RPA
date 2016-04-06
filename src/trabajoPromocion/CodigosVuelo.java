@@ -1,7 +1,7 @@
 /*
  * El trabajo práctico consiste en especificar el pseudocódigo y el JAVA de un
  * algoritmo en el cual el usuario tendrá disponible un menú que mostrará
- * opciones para realizar distintas oeraciones.
+ * opciones para realizar distintas operaciones.
  *
  */
 package trabajoPromocion;
